@@ -1,4 +1,5 @@
 # 🚀 Axion Intelligence Platform
+![image alt](https://github.com/saba-codes/Axion-Intelligence-Platform/blob/9926f080516bb780a417f19812b9a4071e7e4e76/Axion-Architecture.jpeg)
 
 An industrial telemetry monitoring platform built using **Microsoft Azure, Docker, Kubernetes, React, Python, and PostgreSQL**. The project simulates refinery sensor data, ingests and stores telemetry, provides APIs to query the data, and presents it through a web-based dashboard.
 
