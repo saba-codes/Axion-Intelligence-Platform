@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: axion-ui-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: dabbewale.shop
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: axion-ui-svc
+            port: 
+              number: 80
